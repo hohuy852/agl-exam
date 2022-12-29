@@ -8,35 +8,27 @@ title
     position: relative;
 
     .c-pickup__bg {
+        @include background;
         background-image: url("../../assets/img/pickup-bg.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
         height: 632px;
         padding-top: 49px;
     }
 
     .c-pickup__header {
-        max-width: 496px;
-        margin: 0 auto;
-        text-align: center;
+        @include header;
         color: $white;
         line-height: 1.59;
         padding: 10px 0 9px;
-        border-radius: 3px;
-        border: 2px solid rgb(172, 222, 218);
     }
 
     .c-pickup__titleen {
-        font-size: 2rem;
-        font-weight: 700;
+        @include titleen;
         opacity: 0.5;
     }
 
     .c-pickup__titlejp {
-        font-size: 2.6rem;
+        @include titlejp;
         letter-spacing: -2.2px;
-        font-weight: 700;
         margin-top: -1px;
     }
 
@@ -132,6 +124,10 @@ title
         border-radius: 100%;
         background-color: #fff;
         text-indent: -9999px;
+    }
+
+    .slick-arrow {
+        cursor: pointer;
     }
 
     .slick-active button {

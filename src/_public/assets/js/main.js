@@ -2,7 +2,7 @@ let scrollPosition = 0;
 const $body = document.querySelector("body");
 $(document).ready(function () {
   $(".c-pickup__slider").slick({
-    speed: 1100,
+    speed: 700,
     infinite: true,
     autoplay: false,
     cssEase: "linear",

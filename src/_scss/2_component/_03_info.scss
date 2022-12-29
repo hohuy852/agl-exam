@@ -1,0 +1,110 @@
+/*------------------------------------------------------------
+icon
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-info {
+    .c-info__bg {
+        @include background;
+        background-image: url("../../assets/img/bg-info.jpg");
+        padding-top: 50px;
+    }
+
+    .c-info__header {
+        @include header($borderColor: rgb(0, 0, 0));
+        padding: 10px 11px 12px;
+    }
+
+    .c-info__titleen {
+        @include titleen;
+        color: $cyan;
+    }
+
+    .c-info__titlejp {
+        @include titlejp;
+        color: $black;
+    }
+
+    .c-info__subtitle {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: $black;
+        text-align: center;
+        max-width: 351px;
+        margin: 44px auto 0;
+        line-height: 1.8;
+        letter-spacing: 0.2px;
+        width: fit-content;
+        font-feature-settings: "palt" 1;
+    }
+
+    .c-info__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 44px;
+    }
+
+    .c-info__item {
+        display: flex;
+        position: relative;
+        width: 49%;
+        margin-bottom: 49px;
+    }
+
+    .c-info__itemimg {
+        width: 56.3%;
+
+        img {
+            width: 100%;
+            height: 211px;
+            border: 3px solid #fff;
+        }
+    }
+
+    .c-info__itemcontent {
+        width: 50.3%;
+        position: absolute;
+        right: 1px;
+        top: 25px;
+        padding: 19px 0 30px 21px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.35);
+    }
+
+    .c-info__itemtitle {
+        font-size: 1.8rem;
+        color: $black;
+        font-weight: 700;
+    }
+
+    .c-info__itemaddress {
+        font-size: 1.2rem;
+        color: $black;
+        font-weight: 400;
+    }
+
+    .c-info__itemmessage {
+        font-feature-settings: "palt" 1;
+        font-size: 1.4rem;
+        color: $cyan;
+        font-weight: 700;
+        padding-top: 9px;
+        line-height: 1.7;
+        text-align: left;
+    }
+
+    .c-info__itemlabel {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: $black;
+        padding: 0 9px 2px;
+        display: inline-block;
+        margin-top: 25px;
+        background: #ccc;
+        font-feature-settings: "palt" 1;
+        border-radius: 13px;
+        transform: translateX(-4px);
+    }
+}

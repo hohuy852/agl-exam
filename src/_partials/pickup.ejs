@@ -7,7 +7,7 @@
         <div class="c-pickup__slider">
             <% if (typeof pickup != 'undefined') { %>
                 <% pickup.slides && pickup.slides.forEach(slide => { %>
-                    <div class="c-pickup__slide">
+                    <a class="c-pickup__slide" href='#'>
                         <div class="c-pickup__slideimg">
                             <img src="<%= slide.img %>" alt="他人も巻き込み 一生使える自己分析を">
                             <span class="c-pickup__slidelabel"><%= slide.label %></span>
@@ -16,7 +16,7 @@
                             <h3 class="c-pickup__slidetitle"><%= slide.title %></h3>
                             <h4 class="c-pickup__slidesubtitle"><%= slide.subtitle %></h4>
                         </div>
-                    </div>
+                    </a>
                 <% }) %>
             <% } %>
         </div>
