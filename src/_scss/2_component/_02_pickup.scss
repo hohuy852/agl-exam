@@ -5,6 +5,8 @@ title
 /*
 ------------------------------------------------------------*/
 .c-pickup {
+    position: relative;
+
     .c-pickup__bg {
         background-image: url("../../assets/img/pickup-bg.jpg");
         background-position: center;
@@ -81,10 +83,71 @@ title
     }
 
     .c-pickup__slider {
-        margin-top: 39px;
+        margin-top: 62px;
     }
 
     .slick-slide {
         margin: 0 7px;
+    }
+
+    .c-pickup__arrows {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        max-width: 1802px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 36.1%;
+    }
+
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: -15.4%;
+        left: 50%;
+        transform: translateX(-50%);
+        list-style-type: none;
+    }
+
+    .slick-dots {
+        li {
+            margin-left: 20px;
+
+            &:first-child {
+                margin: 0;
+            }
+        }
+    }
+
+    .slick-dots button {
+        display: block;
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        border: none;
+        cursor: pointer;
+        border-radius: 100%;
+        background-color: #fff;
+        text-indent: -9999px;
+    }
+
+    .slick-active button {
+        background-color: #000;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 17px;
+            height: 17px;
+            border-radius: 50%;
+            border: 1px solid #000;
+            transform: translate(-50%, -50%);
+        }
     }
 }

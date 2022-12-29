@@ -19,8 +19,8 @@
       }
     ]
   },
-  "mainvisual":{
-    "slides":[
+  "mainvisual": {
+    "slides": [
       {
         "class": "c-mainvisual__first"
       },
@@ -35,49 +35,56 @@
       }
     ]
   },
-  "pickup":{
-    "slides":[
+  "pickup": {
+    "slides": [
       {
-        "img":"./assets/img/slide-0.jpg",
-        "label":"",
-        "title":"事前の知識や資格は不要 「お年寄りが好き」で十分 株式会社悠遊社",
-        "subtitle":""
+        "img": "./assets/img/slide-0.jpg",
+        "label": "",
+        "title": "事前の知識や資格は不要 「お年寄りが好き」で十分 株式会社悠遊社",
+        "subtitle": ""
+      },
+
+      {
+        "img": "./assets/img/slide-1.jpg",
+        "label": "就活コラム",
+        "title": "他人も巻き込み 一生使える自己分析を",
+        "subtitle": "(株)四国中央キャリア　代表取締役"
       },
       {
-        "img":"./assets/img/slide-1.jpg",
-        "label":"就活コラム",
-        "title":"他人も巻き込み 一生使える自己分析を",
-        "subtitle":"(株)四国中央キャリア　代表取締役"
+        "img": "./assets/img/slide-2.jpg",
+        "label": "経営者インタビュー",
+        "title": "社会の変化に迅速に対応業種を超えた事業展開も",
+        "subtitle": "(株)愛媛銀行 頭取"
       },
       {
-        "img":"./assets/img/slide-2.jpg",
-        "label":"経営者インタビュー",
-        "title":"社会の変化に迅速に対応業種を超えた事業展開も",
-        "subtitle":"(株)愛媛銀行 頭取"
+        "img": "./assets/img/slide-3.jpg",
+        "label": "就活コラム",
+        "title": "県内食品業界はもちろん、愛媛全域が盛り上がるようなイベントを。",
+        "subtitle": ""
       },
       {
-        "img":"./assets/img/slide-3.jpg",
-        "label":"就活コラム",
-        "title":"県内食品業界はもちろん、愛媛全域が盛り上がるようなイベントを。",
-        "subtitle":""
+        "img": "./assets/img/slide-4.jpg",
+        "label": "経営者インタビュー",
+        "title": "質の高いサービスを提供 地域の生活を支える企業に",
+        "subtitle": "株式会社フジ　代表取締役社長兼ＣＯＯ"
       },
       {
-        "img":"./assets/img/slide-4.jpg",
-        "label":"経営者インタビュー",
-        "title":"質の高いサービスを提供 地域の生活を支える企業に",
-        "subtitle":"株式会社フジ　代表取締役社長兼ＣＯＯ"
+        "img": "./assets/img/slide-5.jpg",
+        "label": "経営者インタビュー",
+        "title": "興味を持ち追求すること それが私の仕事の原動力",
+        "subtitle": "大王海運グループ"
       },
       {
-        "img":"./assets/img/slide-5.jpg",
-        "label":"経営者インタビュー",
-        "title":"興味を持ち追求すること それが私の仕事の原動力",
-        "subtitle":"大王海運グループ"
+        "img": "./assets/img/slide-6.jpg",
+        "label": "",
+        "title": "事前の知識や資格は不要 「お年寄りが好き」で十分",
+        "subtitle": "株式会社悠遊社"
       },
       {
-        "img":"./assets/img/slide-6.jpg",
-        "label":"",
-        "title":"事前の知識や資格は不要 「お年寄りが好き」で十分",
-        "subtitle":"株式会社悠遊社"
+        "img": "./assets/img/slide-2.jpg",
+        "label": "経営者インタビュー",
+        "title": "社会の変化に迅速に対応業種を超えた事業展開も",
+        "subtitle": "(株)愛媛銀行 頭取"
       }
     ]
   }

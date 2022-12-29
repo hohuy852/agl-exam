@@ -11,6 +11,8 @@ $(document).ready(function () {
     slidesToShow:5 ,
     centerMode: true,
     variableWidth: true,
+    prevArrow: $('.c-pickup__prev'),
+    nextArrow: $('.c-pickup__next'),
   });
   $(".c-mainvisual__slides").slick({
     speed: 1000,
