@@ -1,0 +1,25 @@
+<section class="c-pickup">
+    <div class="c-pickup__bg">
+        <div class="c-pickup__header">
+            <p class="c-pickup__titleen">Pick Up</p>
+            <h2 class="c-pickup__titlejp">新着ピックアップ</h2>
+        </div>
+        <div class="c-pickup__slider">
+            <% if (typeof pickup != 'undefined') { %>
+                <% pickup.slides && pickup.slides.forEach(slide => { %>
+                    <div class="c-pickup__slide">
+                        <div class="c-pickup__slideimg">
+                            <img src="<%= slide.img %>" alt="他人も巻き込み 一生使える自己分析を">
+                            <span class="c-pickup__slidelabel"><%= slide.label %></span>
+                        </div>
+                        <div class="c-pickup__bottom">
+                            <h3 class="c-pickup__slidetitle"><%= slide.title %></h3>
+                            <h4 class="c-pickup__slidesubtitle"><%= slide.subtitle %></h4>
+                        </div>
+                    </div>
+                <% }) %>
+            <% } %>
+            
+        </div>
+    </div>
+</section>

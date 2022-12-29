@@ -1,0 +1,58 @@
+/*------------------------------------------------------------
+btn
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+
+.c-mainvisual {
+    position: relative;
+
+    .c-mainvisual__bg {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 700px;
+        padding: 0 10px;
+    }
+
+    .c-mainvisual__first {
+        background-image: url("../../assets/img/mainvisual.jpg");
+    }
+
+    .c-mainvisual__second {
+        background-image: url("../../assets/img/mainvisual-2.png");
+    }
+
+    .c-mainvisual__third {
+        background-image: url("../../assets/img/mainvisual-3.jpg");
+    }
+
+    .c-mainvisual__fourth {
+        background-image: url("../../assets/img/mainvisual-4.jpg");
+    }
+
+    .c-mainvisual__content {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 7.25%;
+    }
+
+    .c-mainvisual__text {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+        background: rgba(255, 255, 255, 0.2);
+        width: 48.5%;
+        padding: 2px 2px 2px 7px;
+        text-align: center;
+        margin-top: 5px;
+        letter-spacing: 0;
+        letter-spacing: -0.2px;
+    }
+
+    .c-mainvisual__title {
+        text-indent: -9999px;
+    }
+}

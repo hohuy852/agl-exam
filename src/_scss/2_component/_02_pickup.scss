@@ -1,0 +1,90 @@
+/*------------------------------------------------------------
+title
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-pickup {
+    .c-pickup__bg {
+        background-image: url("../../assets/img/pickup-bg.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 632px;
+        padding-top: 49px;
+    }
+
+    .c-pickup__header {
+        max-width: 496px;
+        margin: 0 auto;
+        text-align: center;
+        color: $white;
+        line-height: 1.59;
+        padding: 10px 0 9px;
+        border-radius: 3px;
+        border: 2px solid rgb(172, 222, 218);
+    }
+
+    .c-pickup__titleen {
+        font-size: 2rem;
+        font-weight: 700;
+        opacity: 0.5;
+    }
+
+    .c-pickup__titlejp {
+        font-size: 2.6rem;
+        letter-spacing: -2.2px;
+        font-weight: 700;
+        margin-top: -1px;
+    }
+
+    .c-pickup__slideimg {
+        position: relative;
+        width: 330px;
+    }
+
+    .c-pickup__slidelabel {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: $cyan;
+        background: #fff;
+        position: absolute;
+        right: 0;
+        bottom: -1px;
+        padding: 4px 9px;
+        letter-spacing: -0.2px;
+    }
+
+    .c-pickup__bottom {
+        max-width: 330px;
+        background-color: #fff;
+        height: 108px;
+        margin-top: -1px;
+    }
+
+    .c-pickup__slidetitle {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: $black;
+        padding: 10px 9px 9px;
+        letter-spacing: 0.1px;
+        font-feature-settings: "palt" 1;
+    }
+
+    .c-pickup__slidesubtitle {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: $black;
+        padding: 3px 0 0 10px;
+        font-feature-settings: "palt" 1;
+        letter-spacing: -0.9px;
+    }
+
+    .c-pickup__slider {
+        margin-top: 39px;
+    }
+
+    .slick-slide {
+        margin: 0 7px;
+    }
+}
