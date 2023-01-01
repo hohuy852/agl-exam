@@ -1,4 +1,23 @@
 <section class='c-news'>
     <p class='c-news__titleen'>News</p>
     <h2 class='c-news__titlejp'>新着ニュース</h2>
+    <div class='l-container--780'>
+        <div class='c-news__items'>
+            <% if (typeof news != 'undefined') { %>
+                <% news.items && news.items.forEach(item => { %>
+                    <a href='#' class='c-news__item'>
+                        <span class='c-news__date'><%=item.date%></span>
+                        <h3 class='c-news__title'><%=item.title%></h3>
+                    </a>
+                <% }) %>
+            <% } %>
+        </div>
+    </div>
+    <div class='c-news__bg'>
+        <img src="./assets/img/news-bg.jpg" alt="">
+    </div>
+    <a href='#' class='c-button c-news__btn'>
+        ニュース一覧はこちら
+    <img class="c-button__arrow" src="./assets/img/arrow.svg" alt="掲載・取材依頼の企業様へ">
+    </a>
 </section>

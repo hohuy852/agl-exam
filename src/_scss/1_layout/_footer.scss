@@ -2,5 +2,29 @@
 footer
 ------------------------------------------------------------*/
 .c-footer {
-  
+  margin-top: 120px;
+  padding: 0 10px;
+  .c-footer__top {
+    padding: 10px 10px;
+    background: #f8b616;
+  }
+  .c-footer__banner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .c-footer__bannerleft {
+    width: 31.5%;
+  }
+  .c-footer__bannercenter {
+    width: 37%;
+    position: relative;
+  }
+  .c-footer__centerimg {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+  .c-footer__bannerright {
+    width: 31.1%;
+  }
 }

@@ -45,8 +45,9 @@ title
         position: absolute;
         right: 0;
         bottom: -1px;
-        padding: 4px 9px;
-        letter-spacing: -0.2px;
+        padding: 5px 11px;
+        letter-spacing: -0.4px;
+        font-feature-settings: "palt" 1;
     }
 
     .c-pickup__bottom {
@@ -60,8 +61,8 @@ title
         font-size: 1.6rem;
         font-weight: 700;
         color: $black;
-        padding: 10px 9px 9px;
-        letter-spacing: 0.1px;
+        padding: 9px 9px 10px;
+        letter-spacing: 0.2px;
         font-feature-settings: "palt" 1;
     }
 
