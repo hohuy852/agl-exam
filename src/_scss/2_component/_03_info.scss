@@ -67,6 +67,7 @@ icon
         width: 50.3%;
         position: absolute;
         right: 1px;
+        font-feature-settings: "palt" 1;
         top: 25px;
         padding: 19px 0 30px 21px;
         background-color: rgb(255, 255, 255);
@@ -93,6 +94,7 @@ icon
         padding-top: 9px;
         line-height: 1.7;
         text-align: left;
+        white-space: pre-wrap;
     }
 
     .c-info__itemlabel {
