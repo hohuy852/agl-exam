@@ -198,3 +198,7 @@ Example:
 ```
 VITE_BASE_URL=/
 ```
+
+ .c-footer .c-footer__logo img {
+    max-width: 360px;
+  }
