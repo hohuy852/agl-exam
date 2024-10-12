@@ -54,6 +54,19 @@
         content: "";
         top: 20px;
     }
+
+    .btn2.open .icon::before {
+        transform: rotateZ(45deg) scaleX(1.25) translate(13px, 13px);
+    }
+
+    .btn2.open .icon::after {
+        transform: rotateZ(-45deg) scaleX(1.25) translate(12px, -12px);
+    }
+
+    .btn2.open .icon {
+        transition-duration: 0.5s;
+        background: transparent;
+    }
 }
 /* Main menu
 ------------------------------------------------------------*/
