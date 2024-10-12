@@ -1,20 +1,12 @@
-<section class="c-mainvisual">
-    <div class='c-mainvisual__slides'>
-        <% if (typeof mainvisual != 'undefined') { %>
-            <% mainvisual.slides && mainvisual.slides.forEach(slide => { %>
-                <div class="c-mainvisual__bg <%= slide.class %>">
-                    &nbsp;
-                </div>
-            <% }) %>
-        <% } %>
-    </div>
-    <div class="l-container c-mainvisual__content">
-        <div class="c-mainvisual__mvcatch">
-            <img src="./assets/img/mv_catch.png" alt="未来の先輩から生の声が届きました。">
-            <h1 class="c-mainvisual__title">未来の先輩から生の声が届きました。</h1>
+<div class="l-container">
+    <div class="c-mainvisual">
+        <div class="c-mainvisual__left">
+            <h1>Hi, I am John,<br>Creative Technologist</h1>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <a href="#" class="download">Download Resume</a>
         </div>
-        <div class="c-mainvisual__text">
-            2020年卒学生向けの企業紹介サイト
+        <div class="c-mainvisual__right">
+            <img src="./assets/img/download.png" alt="">
         </div>
     </div>
-</section>
+</div>

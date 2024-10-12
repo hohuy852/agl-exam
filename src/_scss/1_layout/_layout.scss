@@ -12,13 +12,13 @@ body {
 
 //-------------------------------------------------------
 .l-container {
-    max-width: 1160px;
+    max-width: 856px;
     margin: 0 auto;
     width: 100%;
 }
 
 .l-container--780 {
-    @extend .l-container;
+    @extend .l-container;  //co cac thuoc tinh cua container
     max-width: 780px;
 }
 
