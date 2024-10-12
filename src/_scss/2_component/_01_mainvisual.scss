@@ -40,3 +40,24 @@
 }
 
 
+@include sp {
+    .c-mainvisual {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .c-mainvisual__right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .c-mainvisual__left {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .c-mainvisual__left .download {
+        margin: auto;
+    }
+}
